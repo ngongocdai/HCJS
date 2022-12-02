@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>demo javascript</title>
+</head>
+<body>
+<h1><span id="minutes">10</span>:<span id="seconds">00</span></h1>
+    <script type="text/javascript">
+      // code js
+    </script>
+    <script type="text/javascript" src="js/demo.js">
+      // ko vt code tai day
+    </script>
+
+<h1 id="x-name">ten mot nguoi nao do</h1>
+<script type="text/javascript">
+    var obj1={
+        name: "nguyen anh thu",
+        age: 18,
+        address:"ha noi",
+        gender:"nu",
+    }
+    console.log(obj1.name);
+    var xh1 = document.getElementById("x-name");
+    setTimeout(function(){
+        //xh1.innerText = "le anh thu";
+        //xh1.innerHTML = "<i>le anh thu</i>";
+        xh1.style.color = "red";
+        xh1.style.backgroundColor = "orange";
+    },3000);
+
+    var menu = [
+        "pho",
+        "trung vit lon",
+        "xoi xeo"
+    ]
+    var td = document.getElementById("thucdon");
+    for(var i=0;i<menu.length;i++){
+        var pt = `<li>${menu[i]}</li>`;
+        td.innerHTML += pt;
+    }
+</script>
+
+
+
+
+
+<button onclick="userClick()"
+        onmouseenter="userMouseIn()"
+        onmouseout="userMouseOut()"
+>Click me</button>
+
+<input  onkeydown="KeyDown()"
+        onkeyup="KeyUp()"
+        id="ips" placeholder="Search" type="text" name="search"/>
+<select id="sl" name="city" onchange="change()">
+    <option value="hn">hn</option>
+    <option value="sg">sg</option>
+    <option value="dn">dn</option>
+</select>
+<span id="city">hn</span>
+
+
+<script type="text/javascript">
+    var ips = document.getElementById("ips");
+    var sl = document.getElementById("sl");
+    var ct = document.getElementById("city");
+
+    function KeyDown(){
+        console.log("Key down"+ips.value);
+    }
+    function change(){
+       // console.log("change"+sl.value);
+        ct.innerText = sl.value;
+    }
+    function userClick(){
+        console.log("nhan vao link ben duoi tai game");
+    }
+    function userMouseIn(){
+        console.log("Mouse in"+ips.value);
+    }
+    function userMouseOut(){
+        console.log("Mouse out"+ips.value);
+    }
+    function KeyUp(){
+        console.log("Keyup"+ips.value);
+    }
+</script>
+
+
+
+
+</body>
+</html>

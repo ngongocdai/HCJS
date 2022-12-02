@@ -2,6 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d1143c24-7996-4a8e-ac12-11644832762b" name="Changes" comment="up">
+      <change afterPath="$PROJECT_DIR$/box_model.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/box-model.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/guitar.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/layout.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/quanao.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/form.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/guitar.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/demo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/layout.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quanao.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/weather.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -13,8 +25,9 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="tsconfig.json" />
-        <option value="HTML File" />
         <option value="CSS File" />
+        <option value="JavaScript File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -33,25 +46,25 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "D:/Users/DELL/WebstormProjects/test/images",
-    "list.type.of.created.stylesheet": "CSS",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.lookFeel",
-    "two.files.diff.last.used.folder": "D:/Users/DELL/WebstormProjects/test/images",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Users/DELL/WebstormProjects/test/images&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.tabs&quot;,
+    &quot;two.files.diff.last.used.folder&quot;: &quot;D:/Users/DELL/WebstormProjects/test/images&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "ChangesTree.GroupingKeys": [
-      "directory"
+  &quot;keyToStringList&quot;: {
+    &quot;ChangesTree.GroupingKeys&quot;: [
+      &quot;directory&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Users\DELL\WebstormProjects\test\css" />
@@ -74,7 +87,12 @@
       <workItem from="1667967142046" duration="7184000" />
       <workItem from="1668009286050" duration="3861000" />
       <workItem from="1668130507106" duration="8322000" />
-      <workItem from="1668278256331" duration="7131000" />
+      <workItem from="1668278256331" duration="7285000" />
+      <workItem from="1668414409120" duration="11307000" />
+      <workItem from="1668994453825" duration="10849000" />
+      <workItem from="1669167226111" duration="8582000" />
+      <workItem from="1669600526459" duration="6961000" />
+      <workItem from="1669946310550" duration="2910000" />
     </task>
     <task id="LOCAL-00001" summary="home">
       <created>1667991880995</created>
@@ -132,7 +150,14 @@
       <option name="project" value="LOCAL" />
       <updated>1668284734858</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="up">
+      <created>1668285486621</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1668285486621</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
